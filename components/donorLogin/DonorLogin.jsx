@@ -14,10 +14,10 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const url = "http://localhost:8080/api/auth/login";
+            const url = "http://localhost:8080/api/donorauth/donorLogin";
             const { data: res } = await axios.post(url, data);
             localStorage.setItem("token", res.data);
-            window.location = "/";
+            window.location = "/Home";
         } catch (error) {
             if (
                 error.response &&
@@ -61,7 +61,7 @@ const Login = () => {
                 </div>
                 <div className={styles.right}>
                     <h1>New Here ?</h1>
-                    <Link to="/signup" >
+                    <Link to="/donorLogin" >
                         <button type="button" className={styles.white_btn}>
                             Sing Up
                         </button>

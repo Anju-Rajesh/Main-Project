@@ -45,10 +45,7 @@ const Homepage = () => {
         <div className={styles.main_container}>
             <nav className={styles.navbar}>
                 <h1>The Blood Link</h1>
-                <Link to='/donor-list'>Donor</Link>
-                <Link to='/donorRegistration'>Donor Signup </Link>
-                <Link to='/donorLogin'>Donor Signin </Link>
-
+    
                 <button className={styles.white_btn} onClick={handleLogout}>
                     Logout
                 </button>

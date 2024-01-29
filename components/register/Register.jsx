@@ -25,9 +25,9 @@ const Register = () => {
         e.preventDefault();
         console.log("Request Payload:", data); // Log the request payload
         try {
-            const url = "http://localhost:8002/api/users/Register";
+            const url = "http://localhost:8080/api/users/Register";
             const { data: res } = await axios.post(url, data);
-            navigate("/login");
+            navigate("/user-login");
             console.log(res.message);
         } catch (error) {
             if (

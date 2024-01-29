@@ -1,0 +1,53 @@
+/* Homepage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('../Images/registration.jpg');
+    background-size: cover;
+
+}
+
+header {
+    background-color: #a20b06;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+button {
+    background-color: #a20b06;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a20b06;
+}

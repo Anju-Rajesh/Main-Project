@@ -35,7 +35,7 @@
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
-const Homepage = () => {
+const AdminHomepage = () => {
     const handleLogout = () => {
         localStorage.removeItem("token");
         window.location.reload();
@@ -46,15 +46,15 @@ const Homepage = () => {
             <nav className={styles.navbar}>
                 <h1>The Blood Link</h1>
                 <Link to='/donor-list'>Donor</Link>
-                <Link to='/donorRegistration'>Donor Signup </Link>
-                <Link to='/donorLogin'>Donor Signin </Link>
+                <Link to='/userViewDelete'>User</Link>
 
                 <button className={styles.white_btn} onClick={handleLogout}>
                     Logout
                 </button>
+
             </nav>
         </div>
     );
 };
 
-export default Homepage;
+export default AdminHomepage;
