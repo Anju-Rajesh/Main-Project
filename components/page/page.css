@@ -1,0 +1,405 @@
+
+/* Reset some default styling for better consistency */
+body, h1, h2, p, ul, li, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a default font and remove list styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Global styles for the entire page */
+body {
+  background-color: #f7fafc; /* Set a light background color */
+  color: #2d3748; /* Set the text color */
+}
+
+/* Header styling */
+header {
+  background-color: #4a5568; /* Set a background color for the header */
+  color: #ffffff; /* Set text color in the header */
+  padding: 1rem; /* Add some padding to the header */
+  text-align: center; /* Center align the text */
+}
+
+header h1 {
+  font-size: 2rem; /* Set the font size for the heading in the header */
+  color: #ffffff;
+}
+/* Add a class to target the specific paragraph */
+.hero-text {
+  font-weight: bold;
+  /* Make the text bold */
+  font-size: 2.5rem;
+  /* Set the font size */
+  color: #4a5568;
+  /* Set a specific text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Add a subtle text shadow */
+  /* Add any other styles as needed */
+}
+
+/* Apply the class to the paragraph element */
+.hero-text p {
+  margin: 0;
+  /* Remove any default margin */
+}
+header nav ul {
+  display: flex; /* Use flexbox for the navigation menu */
+  justify-content: space-around; /* Distribute items evenly in the navigation menu */
+  margin-top: 1rem; /* Add some space between header and navigation menu */
+}
+
+header nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Set text color for links in the header */
+}
+
+
+/* Hero section styling */
+.grid {
+  display: grid; /* Use grid for layout */
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid layout */
+}
+
+.place-items-center {
+  place-items: center; /* Center items in the grid */
+}
+
+/* Blood donation fact section styling */
+.flex {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Distribute items evenly horizontally */
+  padding: 0 20px; /* Add padding to the sides */
+}
+
+/* Table styling */
+.w-max {
+  width: max-content; /* Set the table width to fit content */
+}
+
+.border {
+  border: 1px solid #a0aec0; /* Add a border to table elements */
+}
+
+.bg-blood {
+  background-color: #e53e3e; /* Set background color for blood type cells */
+}
+
+.text-blood {
+  color: #e53e3e; /* Set text color for blood type cells */
+}
+
+/* Blood donation process section styling */
+.border-metal {
+  border: 1px solid #cbd5e0; /* Add a border to process section elements */
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Add a shadow to elements */
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* Add rounded corners to elements */
+}
+
+.overflow-hidden {
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.select-none {
+  user-select: none; /* Disable text selection for specific elements */
+}
+
+.m-4 {
+  margin: 1rem; /* Add margin to the process section content */
+}
+
+/* Footer styling */
+.w-full {
+  width: 100%; /* Full width for the footer */
+}
+
+.h-max {
+  height: max-content; /* Set maximum height for the footer */
+}
+/* Reset some default styling for better consistency */
+body, h1, h2, p, ul, li, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a default font and remove list styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Global styles for the entire page */
+body {
+  background-color: #f7fafc; /* Set a light background color */
+  color: #2d3748; /* Set the text color */
+}
+
+/* Header styling */
+header {
+  background-color: #4a5568; /* Set a background color for the header */
+  color: #ffffff; /* Set text color in the header */
+  padding: 1rem; /* Add some padding to the header */
+  text-align: center; /* Center align the text */
+}
+
+header h1 {
+  font-size: 2rem; /* Set the font size for the heading in the header */
+}
+
+header nav ul {
+  display: flex; /* Use flexbox for the navigation menu */
+  justify-content: space-around; /* Distribute items evenly in the navigation menu */
+  margin-top: 1rem; /* Add some space between header and navigation menu */
+}
+
+header nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Set text color for links in the header */
+}
+
+/* Hero section styling */
+.grid {
+  display: grid; /* Use grid for layout */
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid layout */
+}
+
+.place-items-center {
+  place-items: center; /* Center items in the grid */
+}
+
+/* Blood donation fact section styling */
+.flex {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Distribute items evenly horizontally */
+  padding: 0 20px; /* Add padding to the 
+/* Reset some default styling for better consistency */
+    body,
+    h1,
+    h2,
+    p,
+    ul,
+    li,
+    table,
+    tr,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Apply a default font and remove list styling */
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /* Global styles for the entire page */
+    body {
+        background-color: #f7fafc;
+        /* Set a light background color */
+        color: #2d3748;
+        /* Set the text color */
+    }
+
+    /* Header styling */
+    header {
+        background-color: #4a5568;
+        /* Set a background color for the header */
+        color: #ffffff;
+        /* Set text color in the header */
+        padding: 1rem;
+        /* Add some padding to the header */
+        text-align: center;
+        /* Center align the text */
+    }
+
+    header h1 {
+        font-size: 2rem;
+        /* Set the font size for the heading in the header */
+    }
+
+    header nav ul {
+        display: flex;
+        /* Use flexbox for the navigation menu */
+        justify-content: space-around;
+        /* Distribute items evenly in the navigation menu */
+        margin-top: 1rem;
+        /* Add some space between header and navigation menu */
+    }
+
+    header nav a {
+        text-decoration: none;
+        /* Remove underline from links */
+        color: #ffffff;
+        /* Set text color for links in the header */
+    }
+
+    /* Hero section styling */
+    .grid {
+        display: grid;
+        /* Use grid for layout */
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+        /* Create a 2-column grid layout */
+    }
+
+    .place-items-center {
+        place-items: center;
+        /* Center items in the grid */
+    }
+
+    /* Blood donation fact section styling */
+    .flex {
+        display: flex;
+        /* Use flexbox for layout */
+        justify-content: space-around;
+        /* Distribute items evenly horizontally */
+        padding: 0 20px;
+        /* Add padding to the sides */
+    }
+
+    /* Table styling */
+    .w-max {
+        width: max-content;
+        /* Set the table width to fit content */
+    }
+
+    .border {
+        border: 1px solid #a0aec0;
+        /* Add a border to table elements */
+    }
+
+    .bg-blood {
+        background-color: #e53e3e;
+        /* Set background color for blood type cells */
+    }
+
+    .text-blood {
+        color: #e53e3e;
+        /* Set text color for blood type cells */
+    }
+
+    /* Blood donation process section styling */
+    .border-metal {
+        border: 1px solid #cbd5e0;
+        /* Add a border to process section elements */
+    }
+
+    .shadow-md {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        /* Add a shadow to elements */
+    }
+
+    .rounded-lg {
+        border-radius: 0.5rem;
+        /* Add rounded corners to elements */
+    }
+
+    .overflow-hidden {
+        overflow: hidden;
+        /* Hide overflowing content */
+    }
+
+    .select-none {
+        user-select: none;
+        /* Disable text selection for specific elements */
+    }
+
+    .m-4 {
+        margin: 1rem;
+        /* Add margin to the process section content */
+    }
+
+    /* Footer styling */
+    .w-full {
+        width: 100%;
+        /* Full width for the footer */
+    }
+
+    .h-max {
+        height: max-content;
+        /* Set maximum height for the footer */
+    }
+
+
+
+/* //Homepage.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('../Images/registration.jpg');
+    background-size: cover;
+
+}
+
+header {
+    background-color: #a20b06;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+button {
+    background-color: #a20b06;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a20b06;
+} */}

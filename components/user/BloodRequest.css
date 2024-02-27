@@ -1,0 +1,68 @@
+.blood-request-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 20%;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.blood-request-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blood-request-form form {
+    width: 60%;
+    /* Adjust the width of the form */
+    margin-right: 20px;
+    /* Add margin to separate form and sidebar */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Adjust the width of the table or specific table styles */
+.blood-request-form table {
+    width: 100%;
+    /* Set the width of the table as needed */
+}
+
+.blood-request-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blood-request-form input[type="text"],
+.blood-request-form input[type="number"],
+.blood-request-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blood-request-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.blood-request-form button:hover {
+    background-color: #4CAF50 darker;
+}
